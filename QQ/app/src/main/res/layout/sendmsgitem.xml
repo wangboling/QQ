@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical">
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/sendmsgitem_tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="你好!"
+            android:gravity="center"
+            android:background="@drawable/nineright"
+            />
+        <ImageView
+            android:id="@+id/sendmsgitem_iv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/sendmsg_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2015"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
